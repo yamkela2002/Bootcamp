@@ -4,7 +4,6 @@
         padding: 0;
     }  
     
-    
 .navbar {
     display: flex;
     align-items: center;
@@ -15,9 +14,9 @@
 }
 
 .background {
-    background: black;
+    background:whitesmoke;
     background-blend-mode: darken;
-    background-size: cover;
+    background-size:cover
 } 
 
 .nav-list {
@@ -35,24 +34,20 @@
 .logo img {
     width: 180px;
     border-radius: 50px;
-
 }
 
 .nav-list li {
     list-style: none;
     padding: 26px 30px
-
 }
 
 .nav-list li a{
     text-decoration: none;
-    color: white;
-
+    color: black;
 } 
 
 .nav-list li a:hover {
-    color: red;
-
+    color: black;
 }
 
 .rightnav {
@@ -63,12 +58,17 @@
 #search {
     padding: 5px;
     font-size: 17px;
-    border: 2px solid red;
+    border: 2px solid grey;
     border-radius: 9px;
 }    
 
-firstsection {
-     background-color: blue;
+.body {
+    background: rgb(214,97,250);
+    background: linear-gradient(90deg, rgba(214,97,250,1) 0%, rgba(1,3,10,1) 100%);
+}
+.firstsection {
+     background-color:rgb(214,97,250);
+     background: linear-gradient(90deg, rgba(214,97,250,1) 0%, rgba(1,3,10,1) 100%);;
      height: 400px;
 }
 
@@ -76,11 +76,10 @@ firstsection {
      display: flex;
      justify-content: center;
      align-items: center;
-     color: pink;
+     color:black;
      max-width: 80%;
      margin: auto;
      height: 80%;
-
 }     
 
 .firsthalf {
@@ -100,25 +99,22 @@ firstsection {
     border-radius: 150px;
     display: block;
     margin: auto;
-
 }
  .text-big { 
     font-family: 'Piazzolla', serif;
     font-weight: bold;
     font-size: 35px;
-
  }   
  .text-small { 
     font-size: 18px;
  }
-
  .btn {
     padding:8px 20px;
     margin: 7px 0;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 8px;
     background: none;
-    color: white;
+    color: black;
     cursor: pointer;
  }  
  .btn-sm {
@@ -154,5 +150,5 @@ firstsection {
  font-family: 'Ubuntu', sans-serif;
  display: flex;
  justify-content: center;
- color: white;
+ color: black;
  } 

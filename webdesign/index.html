@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 
-<html>
-
 <head>
    <title>
         Simple web Development Template
-        </title>
+    </title>
         <link rel="stylesheet" href="Style.css">
     </head>   
  
  </body>
-     <nav class="navbar background>"
-        ul class="nav-list">
-            <div class="logo">
-               <img src="logo.png">
+     <body class="body">
+     <nav class="navbar background">
+         <ul class="nav-list">
+              <div class="logo">
+                   <img src="logo.jpg">
             </div>
             <li><a href="#web">Web Technology</a></li>
             <li><a href="#program">C Programming</a></li>
-            <li><a href="#course">>Courses</a></li>
+            <li><a href="#course"></a>Courses</a></li>
+         </body>
         </ul>
-   <div class="rightNav">
-      <input type="text" name="search" id="search"
-       button class="btn btn-sm">search</button>
-   </div>
-</nav>
 
-<section class="firstsection">
+   <div class="rightNav">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm" onclick="greet()">greet</button>
+   </div>
+ </nav>
+
+  <section class="firstsection">
    <div class="box-main">
-      <dic class="firstHalf">
-         <h1 class="text-big" id="web"
+      <div class="firstHalf">
+         <h1 class="text-big" id="web">
             Web Technology
-      h1>
+         </h1>
 
       <p class="text-small">
          HTML stand for HyperText Markup
@@ -55,32 +56,32 @@
 </section>
 
 <section class="secondsection">
-   <div class="box-main">
-      <div class="secondHalf"></div>
-      <h1 class="text-big" id="program">
-         C Programming
-    </h1>
-    <p class="text-small">
-      C is a procedural programming langusge.
-      It was intially developed by Dennis
-      Ritchie as a system programmeing
-      language to write operating system.
-      The main features of C language include 
-      low-levels access to memory, simple section 
-      of keywords,and clean style, 
-      these features make C language suitable for
-      system programming like operating system
-      or compiler development.
-   </p>
+    <div class="box-main">
+        <div class="secondHalf">
+            <h1 class="text-big" id="program">
+               C Programming
+            </h1>
+            <p class="text-small">
+            C is a procedural programming langusge.
+            It was intially developed by Dennis
+            Ritchie as a system programmeing
+            language to write operating system.
+            The main features of C language include 
+            low-levels access to memory, simple section 
+            of keywords,and clean style, 
+            these features make C language suitable for
+            system programming like operating system
+            or compiler development.
+        </p>
 
 
-  </div>
+       </div>
+    </div>
 </section>
 
 <section class="section">
-   <div class="paras">
-      <h1 class="sectionTag text-big">Java</h1>
-
+    <div class="paras">
+        <h1 class="sectionTag text-big">Java</h1>
 
    <p class="sectionSubTag text-small">
       Java has been one of the most
@@ -95,25 +96,29 @@
       the byte code is run on Java Virtual
       Machine (JVM) regardless of the
       underlying architecture.
-      </p>
+   </p>
 
 
-   </div>
+</div>
 
-  <div class="thumbnail">
-       <img src="imp.png" alt="laptop image">
+<div class="thumbnail">
+       <img src="imp.png" alt="">
    </div>
 </section>
 
 
 <footer class="background">
-      <p class="text-footer">
-         Copyright  ©-All rights are reserved
+    <p class="text-footer">
+       Copyright  ©-All rights are reserved
       </p>
 
 
-</footer>
-</body>
+  </footer>
 
+  <!-- <script src="script.js"></script> -->
+
+  <script src="script.js"></script>
+  
+</body>
 
 </html>      
