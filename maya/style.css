@@ -1,0 +1,21 @@
+
+*{
+    margin: 2;
+    padding: 2;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor:pointer;
+
+}
+
+.background {
+    background: goldenrod
+    
+
+} 
