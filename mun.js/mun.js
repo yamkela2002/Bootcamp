@@ -50,4 +50,23 @@ else{
 }
 }
 
+/*for(let i=0 ;i <=9; i++){
+    console.log(i)
+}
+ */  
 
+/*let numbers= [2,9,11,7,5,3,4,8,15,14,22,12,20]
+console.log(numbers.length)
+
+for(let i=0 ;1 <numbers.length; i++){
+    console.log()
+
+
+}*/
+
+let numbers = [2, 9,11,7,5,3,4,8,15]
+for (let y=0; y <= numbers.length ;y++){
+    if(numbers[y]%2==0){
+        console.log("is an even number")
+    }
+}
