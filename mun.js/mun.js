@@ -37,8 +37,7 @@ if (e % 2===0){
     console.log("odd number")
 }
 */
-
-function CheckEvenNumber(){
+ /*function CheckEvenNumber(){
 
 let number = document.getElementById("evennumber").value
 
@@ -48,7 +47,7 @@ if(number%2===0){
 else{
     alert(number +" "+"is an odd number")
 }
-}
+ 
 
 /*for(let i=0 ;i <=9; i++){
     console.log(i)
@@ -64,9 +63,27 @@ for(let i=0 ;1 <numbers.length; i++){
 
 }*/
 
-let numbers = [2, 9,11,7,5,3,4,8,15]
-for (let y=0; y <= numbers.length ;y++){
-    if(numbers[y]%2==0){
-        console.log("is an even number")
-    }
-}
+// let numbers = [2, 9,11,7,5,3,4,8,15]
+// for (let y=0; y <= numbers.length ;y++){
+//     if(numbers[y]%2==0){
+//         console.log("is an even number")
+//     }
+// }
+
+// .....Getting firstnames of a names......
+
+// let firstnames = ["Luxolo","Yami","Vuyo","Ncediswa"]
+// for (let y=0; y <firstnames.length ;y++){
+// if(firstnames[y]){
+//     console.log(firstnames[y].charAt(0))
+// }
+// }
+
+// .......Getting an initial of a name...
+
+
+let y= "yamkela".charAt(1)
+console.log(y)
+
+
+
