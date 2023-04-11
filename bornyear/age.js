@@ -1,29 +1,20 @@
 
 
-// function calculate_age(dob) { 
-//     var diff_ms = Date.now() - dob.getTime();
-//     var age_dt = new Date(diff_ms); 
-  
-//     return Math.abs(age_dt.getUTCFullYear() - 2023);
-// }
-
-// console.log(calculate_age(new Date(2002, 11, 4)));
-
-// console.log(calculate_age(new Date(2000, 3, 22)))
-
-
-
-
 
 
 
  function calAge(birthyear){
-     if(birthyear){
+  let birthyear
+   let age=2023-birthyear
+
+    if(age<0){
+console.log(age)
          return "enter your birthyear"
      }
-     else if("enter your age")
-console.log(2002,21)
-}
+ else if(age)
+ console.log("enter your bornyear")
+ 
+ }
 
 
 
@@ -32,6 +23,12 @@ console.log(2002,21)
 //  }
 //  console.log(2023-2000);
 
-// function calAge(currentyear,birthyear){
-//     let age = currentyear-birthyear
+//  function calAge(currentyear,birthyear){
+//      let age = currentyear-birthyear
+//      if( age = 2023-2000){
+//         return"please enter your birth year"
+//        console.log(age)
+       
+//      }
 
+//  }
