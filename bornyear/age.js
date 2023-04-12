@@ -3,18 +3,26 @@
 
 
 
- function calAge(birthyear){
-  let birthyear
-   let age=2023-birthyear
+ function calAge(){
 
-    if(age<0){
-console.log(age)
-         return "enter your birthyear"
-     }
- else if(age)
- console.log("enter your bornyear")
+  let birthyear= document.getElementById("calAge").value
+
+  let age = 2023-birthyear;
+
+  if(!birthyear){
+    alert("please enter your birthyear");
+  }else if(age < 0){
+   alert("age cannot be a negative");
+
+  }else if(birthyear < 0){
+    alert("birthyear cannot be less than 0");
+  }
+  else{
+    alert(age);
+  }
+  }
+  calAge()
  
- }
 
 
 

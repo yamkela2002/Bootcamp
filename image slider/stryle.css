@@ -5,16 +5,6 @@
     padding: 0;
 }
 
-.nextt {
-    background-color: aquamarine;
-    border: 0cap;
-    color: aquamarine;
-    padding: auto;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-}
-
 body{
     display: flex;
     flex-direction: column;
@@ -22,6 +12,10 @@ body{
     align-items: center;
     height: 100vh;
 
+}
+img{
+    height:50 ;
+    width: 50px;
 }
 
 
