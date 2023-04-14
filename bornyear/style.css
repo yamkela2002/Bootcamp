@@ -1,0 +1,32 @@
+* {
+    
+    margin :0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-emphasis:middle;
+
+}
+
+content{
+    padding:10px;
+}
+
+input{
+    padding: 10px;;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+body {
+    background: rgb(250, 97, 212);
+    background: linear-gradient(90deg, rgb(163, 97, 250) 0%, rgba(29, 31, 1, 0.116) 100%);
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items:center;
+    height:100vh ;
+}    

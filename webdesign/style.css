@@ -68,7 +68,7 @@
 }
 .firstsection {
      background-color:rgb(214,97,250);
-     background: linear-gradient(90deg, rgba(214,97,250,1) 0%, rgba(1,3,10,1) 100%);;
+     background: linear-gradient(90deg, rgba(214,97,250,1) 0%, rgba(0, 0, 0, 0.911) 100%);;
      height: 400px;
 }
 
