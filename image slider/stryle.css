@@ -10,6 +10,12 @@ h1{
 
 }
 
+.show_image{
+     width: 300px ;
+     border: 6px double purple;
+     height: 300px ;
+}
+
 content{
     padding:10px;
 }
