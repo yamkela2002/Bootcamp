@@ -1,13 +1,20 @@
 
+let y = [];
 
+  if (localStorage.getItem("age")) {
+  y = JSON.parse(localStorage.getItem("age"));
 
+} else {
+  y.push(age)
+}
 
-
- function calAge(){
+function calAge(){
 
   let birthyear= document.getElementById("calAge").value
-
   let age = 2023-birthyear;
+  localStorage.setItem("age",JSON.stringify(y));
+
+  // y.push(age);
 
   if(!birthyear){
     alert("please enter your birthyear");
@@ -22,7 +29,15 @@
   }
   }
   calAge()
+
+
+
+  // localStorage.getItem("birthyear").value
  
+// .push()
+// document.querySelector("age").value='',
+// localStorage.setItem("age", JSON.stringify(y));
+// window.location.reload();
 
 
 

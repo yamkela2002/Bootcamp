@@ -1,6 +1,6 @@
 
 
-//Array where pictures stored
+// Array where pictures stored
 let images;
 if (localStorage.getItem("images_s")) {
   images = JSON.parse(localStorage.getItem("images_s"));
@@ -8,45 +8,62 @@ if (localStorage.getItem("images_s")) {
   images = ["korea.jpg", "salt lake.jpg", "utah.jpg", "flowertemp.jpg"];
 }
 
-// let arrayimages=JSON.stringify(images);
-// sessionStorage.setItem("myArray",arrayimages)
-// let getimages=sessionStorage.getItem("myArray");
-// let getArray=JSON.parse(getimages)
-console.log(images)
+// if (localStorage.getItem("image_s")){
+    // alert(" the picture already exists"
+
 //call the the class name where the images will show on html
-let currentimage = 0;
+
+let i = 0;
 
 let number = document.querySelector(".show_image");
-number.src = images[currentimage]
+number.src = images[i]
 
 function submit() {
   let slides = document.querySelector(".slides").value;
-  console.log("Hello World")
-  console.log(slides);
-  images.push(slides);
+  // console.log("Hello World")
+  // console.log(slides);
+  // images.push(slides);
   
   localStorage.setItem("images_s", JSON.stringify(images));
+
+
+// let image_s=document.querySelector(".image_s");
+if(slides== ""||images==null){
+    return alert("the button cannot be empty")
+
+}
+for (let i = 0; i < images.length; i++)
+
+if(slides==images[i]){
+  return alert("this image already exists")
+}
+images.push(slides)
+  document.querySelector(".image_s").value='',
+localStorage.setItem("image_s", JSON.stringify(images));
+window.location.reload();
 }
 
-//variable to increment and decrement when the buttons are pressed
+function removeImages(){
+  images.splice(i,1)
+  localStorage.setItem("image_s", JSON.stringify(images));
+  window.location.reload();
+}
 
-//function for next buttton
 function next() {
-  currentimage++;
-  //access the array of pictures
+  i++;
 
-  //controll to not excede the array of images
-  
-  if (currentimage >= images.length) {
+   if (i >= images.length) {
     currentimage = 0;
   }
-  number.src = images[currentimage];
-}
+   number.src = images[i];
+ }
+
 
 function previous() {
-  currentimage--;
-  if (currentimage < 0) {
-    currentimage = images.length - 1;
+  i--;
+  if (i < 0) {
+    i = images.length - 1;
   }
-  number.src = images[currentimage];
+  number.src = images[i];
 }
+
